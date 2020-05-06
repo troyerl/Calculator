@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Calculator</h1>
+            <p class="about">Caculator created using Command Pattern and Abstract Factory Pattern</p>
+            <p class="about">Note: To use correctly place a space between each type, buttons will do that for you</p>
+            <form class="form">
+                <div class="caculator-container">
+                    <div class="input-result">
+                        <p class="input-history"></p>
+                        <input type="text" class="input" placeholder="0">
+                    </div>
+                    <div class="buttons">
+                        <div>
+                            <button type="button" value="(" class="operator">(</button>
+                            <button type="button" value=")" class="operator">)</button>
+                            <button type="button" value="%" class="operator">%</button>
+                            <button type="button" class="clear">Clear</button>
+                            <button type="button" value="7" class="number">7</button>
+                            <button type="button" value="8" class="number">8</button>
+                            <button type="button" value="9" class="number">9</button>
+                            <button type="button" value="/" class="operator">/</button>
+                            <button type="button" value="4" class="number">4</button>
+                            <button type="button" value="5" class="number">5</button>
+                            <button type="button" value="6" class="number">6</button>
+                            <button type="button" value="*" class="operator">x</button>
+                            <button type="button" value="1" class="number">1</button>
+                            <button type="button" value="2" class="number">2</button>
+                            <button type="button" value="3" class="number">3</button>
+                            <button type="button" value="-" class="operator">-</button>
+                            <button type="button" value="0" class="number">0</button>
+                            <button class="equals" type="submit">=</button>
+                            <button type="button" value="+" class="operator">+</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./Js//Command.js"></script>
+    <script src="./Js/AbstractFactory.js"></script>
+    <script src="./Js/Calculator.js"></script>
+    <script src="index.js"></script>
+</html>
